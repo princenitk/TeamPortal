@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import EmpTable from './components/EmployeeTable';
 
 function App() {
   return (
     <div className="App">
-      <h3>Welcome to TeamPortal</h3>
-      
+      < EmpTable/>
     </div>
   );
 }
