@@ -1,11 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import EmpTable from './components/EmployeeTable';
+import FormComponent from './components/FormComponent';
 
 function App() {
   return (
     <div className="App">
-      < EmpTable/>
+      <FormComponent/>
     </div>
   );
 }
